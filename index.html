@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Card</title>
+
+    <style>
+        body {
+            overflow: hidden;
+            font-family: sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* container CSS. */
+        .container {
+            background-color: #ffffff4e;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        /* btn CSS. */
+        .btn {
+            background-color: #000;
+            color: #fff;
+            font-weight: bold;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 10px;
+        }
+
+        /*  Textbox CSS. */
+        .Textbox {
+            border-left: 1px solid #333;
+            padding-left: 1rem;
+        }
+
+        /* car image CSS. */
+        .car {
+            height: 7rem;
+            border-radius: 6px;
+            margin-right: 1rem;
+        }
+
+        /* card CSS. */
+        .card {
+            background-color: #fff;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 85vw;
+            height: max-content;
+            box-shadow: 2px 2px 2px 2px #000;
+            border-radius: 6px;
+            padding: 1rem;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Div for container -->
+    <div class="container">
+
+        <!-- Div for card. -->
+        <div class="card">
+
+            <!-- Div for Image. -->
+            <div>
+                <img class="car" src="/Range-Rover.png" alt="">
+            </div>
+
+            <!-- Div for text. -->
+            <div class="Textbox">
+
+                <p style="font-size: 20px; font-weight: bold;">RANGE ROVER</p>
+
+                <p style="font-size:10px;margin:15px 0; font-weight: lighter;">The RANGE ROVER SPORT is an irresistible
+                    choice for those seeking a blend of performance and luxury. It offers dynamic driving experiences
+                    without compromising comfort, making it one of the most popular RANGE ROVER SUV models sold.</p>
+
+                <button class="btn">
+                    View Inventory
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
