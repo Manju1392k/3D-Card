@@ -2,7 +2,7 @@
 ### Making 3D card with Html, Css.
 
 ---
-# 👁️ Preview of Image Popup Effect
+# 👁️ Preview of 3D Card
 
 <div align='center'>
   
